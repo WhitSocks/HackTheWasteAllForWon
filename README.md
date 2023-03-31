@@ -1,0 +1,2 @@
+# HackTheWasteAllForWon
+Website for hackathon
