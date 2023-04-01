@@ -1,23 +1,14 @@
 
 function login() {
-    const loginBtn = document.querySelector('#login-btn');
-    
-    loginBtn.addEventListener('click', handleLogin);
-    
-    function handleLogin(event) {
-        event.preventDefault();
-    
-        const email = document.querySelector('#email').value;
-        const password = document.querySelector('#password').value;
-    
-        if (email === 'user@example.com' && password === 'password') {
-            window.location.href = '';
-        }
-        else 
-        {
-            alert('Invalid email or password. Please try again.');
-        }
-    }
+  let username= 'Marcel@gmail.com';
+ let Password=123456789;
+ let user= document.getElementById('Email').value;
+ let password= document.getElementById('password').value;
+ if(username==user && Password==password){
+    window.location.href='info.html'
+ }else{
+    console.log(user + password);
+ }
     }
 
 
