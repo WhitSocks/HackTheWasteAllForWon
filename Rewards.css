@@ -1,27 +1,50 @@
 .Body{
     margin-left: 300px;
     margin-right: 300px;
-    
+
     height: fit-content;
+}
+body{
+    background-image: linear-gradient(#bfdf9680,#159ec096);
 }
 .section1{
     margin-top: 40px;
     height: 9em;
-    border: 1px solid black;
+   
     margin-bottom: 40px;
     border-radius: 10px;
+    background-image: linear-gradient(rgb(0, 162, 255),white);
 }
 .section2{
     margin-top: 40px;
     height: 20em;
     border: 1px solid black;
+    box-shadow: 20px 20px 20px 0px white;
     margin-bottom: 40px;
     border-radius: 10px;
 }
 .section3{
     margin-top: 40px;
-    height: 5em;
-    border: 1px solid black;
+    height: 14em;
+   
+    box-shadow: 20px 20px 20px 0px rgb(250, 233, 0);
     margin-bottom: 40px;
     border-radius: 10px;
+}
+.Upload{
+    margin-left:270px;
+}
+.Rep{
+    font-size: 70px;
+    margin-top: 50px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    margin-left:270px;
+}
+.Coupon{
+    height: 200px;
+    width: 500px;
+    margin-left:100px;
 }
