@@ -1,0 +1,27 @@
+.Body{
+    margin-left: 300px;
+    margin-right: 300px;
+    
+    height: fit-content;
+}
+.section1{
+    margin-top: 40px;
+    height: 9em;
+    border: 1px solid black;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.section2{
+    margin-top: 40px;
+    height: 20em;
+    border: 1px solid black;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.section3{
+    margin-top: 40px;
+    height: 5em;
+    border: 1px solid black;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}

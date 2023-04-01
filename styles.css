@@ -1,5 +1,7 @@
 /*CSS for INFO PAGE*/
-
+body{
+    background-image: linear-gradient(#bfdf9680,#159ec096);
+}
 .BODY{
 
     margin-left: 100px;

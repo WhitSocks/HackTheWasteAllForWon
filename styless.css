@@ -1,6 +1,7 @@
 /*Interactive Page*/
 body{
     margin: 0;
+    background-image: linear-gradient(#bfdf9680,#159ec096);
 }
 .MasterGird{
     display:grid;
