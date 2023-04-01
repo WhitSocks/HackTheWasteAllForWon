@@ -14,21 +14,29 @@ body{
    
   
     border:solid black 1px;
+    box-shadow: 10px 10px 10px 0px green;
+    background-image: url(bin.jpg);
+    background-size: cover;
 }
 .Grid-item-2{
-   
-   
+    background-image: url(bin-blue.jpg);
+    background-size: cover;
+    box-shadow: 10px 10px 10px 0px rgb(208, 255, 0);
     border:solid black 1px;
 }
 
 .Grid-item-3{
-   
+    background-image: url(bin-yellow.jpg);
+    background-size: cover;
+    box-shadow: 10px 10px 10px 0px rgb(13, 0, 128);
   
     border:solid black 1px;
 }
 .Grid-item-4{
    
-   
+    background-image: url(bin-red.jpg);
+    background-size: cover;
+    box-shadow: 10px 10px 10px 0px rgb(233, 7, 7);
     border:solid black 1px;
 }
 
