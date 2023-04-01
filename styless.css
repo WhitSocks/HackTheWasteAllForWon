@@ -1,0 +1,78 @@
+/*Interactive Page*/
+body{
+    margin: 0;
+}
+.MasterGird{
+    display:grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows: 400px;
+    margin-left: 300px;
+
+}
+.Grid-item-1{
+   
+  
+    border:solid black 1px;
+}
+.Grid-item-2{
+   
+   
+    border:solid black 1px;
+}
+
+.Grid-item-3{
+   
+  
+    border:solid black 1px;
+}
+.Grid-item-4{
+   
+   
+    border:solid black 1px;
+}
+
+
+
+
+.Objects{
+    margin-top: 150px;
+    display:grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows: 100px;
+    margin-left: 300px;
+
+}
+.object-item-1{
+   
+  
+    border:solid black 1px;
+}
+.object-item-2{
+   
+   
+    border:solid black 1px;
+}
+
+.object-item-3{
+   
+  
+    border:solid black 1px;
+}
+.object-item-4{
+   
+   
+    border:solid black 1px;
+}
+
+
+
+.DemoRep{
+    position: fixed;
+    border: solid 1px black ;
+    padding:10px;
+    margin-top: 20%;
+}
+img{
+    width: 200px;
+    height: 100px;
+}

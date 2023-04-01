@@ -4,17 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styless.css">
+    <script src="Script.js"></script>
     <title>Interactive</title>
 </head>
 <body>
+    
     <div class="MasterGird">
+
+        <div id="Plastic" class="Grid-item-1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div  id="Paper"class="Grid-item-2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div  id="Tin" class="Grid-item-3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div  id="Glass" class="Grid-item-4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
         
-        <div class="Grid-item-1">h</div>
-        <div class="Grid-item-2">h</div>
-        <div class="Grid-item-3">h</div>
-        <div class="Grid-item-4">h</div>
-        
+    </div>
+
+    <div class="Objects">
+        <div class="object-item-1"><img id="drag1" src="plastic-bag-9659043.jpg" alt="" draggable="true" ondragstart="drag(event)"></div>
+        <div class="object-item-2"><img id="drag2" src="paper.png" alt="" draggable="true" ondragstart="drag(event)"></div>
+        <div class="object-item-3"><img id="drag3" src="Tin.jpg" alt="" draggable="true" ondragstart="drag(event)"></div>
+        <div class="object-item-4"><img id="drag4" src="plastic-bag-9659043.jpg" alt="" draggable="true" ondragstart="drag(event)"></div>
     </div>
    
 </body>
