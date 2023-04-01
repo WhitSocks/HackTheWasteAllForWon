@@ -11,7 +11,7 @@ function login() {
         const password = document.querySelector('#password').value;
     
         if (email === 'user@example.com' && password === 'password') {
-            window.location.href = '/dashboard';
+            window.location.href = '';
         }
         else 
         {
